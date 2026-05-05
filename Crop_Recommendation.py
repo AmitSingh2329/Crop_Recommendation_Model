@@ -5,11 +5,11 @@ import pandas as pd
 app = Flask(__name__)
 
 # ✅ Load model
-with open('model.pkl', 'rb') as f:
+with open('model2.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # ✅ Load label encoder
-with open('encoder.pkl', 'rb') as f:
+with open('encoder2.pkl', 'rb') as f:
     encoder = pickle.load(f)
 
 # ✅ Define categories
