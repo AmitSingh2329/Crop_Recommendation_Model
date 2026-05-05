@@ -35,6 +35,12 @@ season_types = ['Kharif', 'Rabi', 'Zayad']
 def home():
     return "Crop Recommendation API is running 🚀"
 
+# ✅ Health check (used by frontend warm-up)
+@app.route('/health')
+def health():
+    return jsonify({"status": "ok"}), 200
+
+
 
 @app.route('/predict', methods=['POST'])
 def predict():
