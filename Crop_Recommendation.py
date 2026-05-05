@@ -8,7 +8,7 @@ CORS(
     app,
     supports_credentials=True,
     resources={
-        r"/*": {
+        "/*": {
             "origins": ["https://demo2-three-topaz.vercel.app"]
         }
     }
