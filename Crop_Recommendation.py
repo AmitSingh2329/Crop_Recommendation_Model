@@ -15,7 +15,7 @@ with open('encoder.pkl', 'rb') as f:
 # ✅ Define categories
 soil_types = [
     'Alluvial', 'Black Soil', 'Clay', 'Clay Loam',
-    'Loamy', 'Red Soil', 'Sandy', 'Sandy Loam'
+    'Coastal Sandy', 'Loamy', 'Red Soil', 'Sandy', 'Sandy Loam'
 ]
 
 season_types = ['Kharif', 'Rabi', 'Zayad']
