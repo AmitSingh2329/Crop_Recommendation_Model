@@ -9,7 +9,7 @@ CORS(
     supports_credentials=True,
     resources={
         "/*": {
-            "origins": ["https://demo2-three-topaz.vercel.app"]
+            "origins": ["https://demo2-three-topaz.vercel.app","https://agro-ai-dusky.vercel.app"]
         }
     }
 )
